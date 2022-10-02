@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 h1,
 ul,
@@ -50,6 +50,7 @@ a {
   display: inline-block;
   color: #b2afaf;
   font-size: 1.125rem;
+  font-family: 'Comfortaa', cursive;
   font-weight: 400;
 }
 
@@ -89,6 +90,9 @@ img {
   line-height: 4.3125rem;
   color: #242323;
   margin-bottom: 111px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 600;
+
 }
 
 .conteudo-perfil p {
@@ -116,8 +120,54 @@ img {
   background: linear-gradient(#e7a1af, #cc6579);
   font-size: 2.125rem;
   line-height: 2.375rem;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 600;
 }
 
+.cursos-bg{
+  background-color: #f2f2f2;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.container-cursos{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.cursos{
+  background-color: #242323;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px 4px;
+}
+
+.cursos-foto{
+  position: relative;
+  max-width: 560px;
+  max-height: 640px;
+  margin-left: -200px;
+}
+
+.cursos h1{
+  font-size: 3.875rem;
+  line-height: 4.3125rem;
+  color: #7d7a7a;
+  margin-bottom: 31px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.cursos p{
+  color: #b3afaf;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 32px;
+}
+
+.cursos strong{
+  color: #d68292;
+}
 /*------RESPONSIVO-----------*/
 
 @media (max-width: 1000px) {
