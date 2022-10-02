@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,
+ul,
+body {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-bg {
+  background-color: #000000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.header-menu a {
+  padding: 16px 0;
+  display: inline-block;
+  color: #b2afaf;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.header-menu a:hover {
+  color: #d68292;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.perfil-bg {
+  background-color: #0a0a0a;
+}
+
+.perfil {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.conteudo-perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.perfil-foto img {
+  border-radius: 4px;
+}
+
+.titulo-1 {
+  font-size: 3.875rem;
+  line-height: 4.3125rem;
+  color: #242323;
+  margin-bottom: 111px;
+}
+
+.conteudo-perfil p {
+  text-align: end;
+  color: #b3afaf;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.texto-perfil {
+  margin-bottom: 50px;
+}
+.call-perfil {
+  margin-bottom: 20px;
+}
+
+.conteudo-perfil strong {
+  color: #d68292;
+}
+
+.btn {
+  color: #842537;
+  padding: 15px 30px;
+  border-radius: 4px;
+  background: linear-gradient(#e7a1af, #cc6579);
+  font-size: 2.125rem;
+  line-height: 2.375rem;
+}
+
+/*------RESPONSIVO-----------*/
+
+@media (max-width: 1000px) {
+  .logo {
+    width: 180px;
+  }
+  .header-menu a {
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    justify-content: center;
+  }
+  .header-menu {
+    gap: 20px;
+  }
+  .header-menu a {
+    font-size: 1rem;
+    padding: 12px 16px;
+    background-color: #121111;
+    border-radius: 4px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-menu a {
+    padding: 8px 12px;
+    font-size: 0.875rem;
+  }
+}
