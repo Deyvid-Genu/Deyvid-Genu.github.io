@@ -3,8 +3,15 @@ font-family: 'Roboto', sans-serif;
 }
 h1,
 ul,
-body {
+body,
+h2 {
   margin: 0;
+}
+
+h2{
+  font-size: 1.125rem;
+  color: #7d7a7a;
+  margin-bottom: 20px;
 }
 
 ul {
@@ -168,6 +175,79 @@ img {
 .cursos strong{
   color: #d68292;
 }
+
+.portfolio-bg{
+  background-color: #0a0a0a;
+  padding: 100px 0;
+}
+
+.portfolio{
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-titulo{
+  font-size: 3.875rem;
+  line-height: 4.3125rem;
+  color: #7d7a7a;
+  margin-bottom: 31px;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.conteudo-portfolio{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.conteudo-portfolio img{
+  border-radius: 4px;
+}
+
+.footer-bg{
+  background-color: #000000;
+  padding: 120px 0 60px 0;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+footer img {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer a{
+  font-size: 1.5rem;
+  color: #b2afaf;
+}
+
+.whats{
+    margin-bottom: 3.5rem;
+    background: url(../img/icons/LogoWhats.svg) no-repeat;
+    padding: 15px 0 15px 72px;
+}
+
+.insta{
+  margin-bottom: 3.5rem;
+  background: url(../img/icons/Logo\ Insta.svg) no-repeat;
+  padding: 15px 0 15px 72px;
+}
+
+.face{
+  margin-bottom: 3.5rem;
+  background: url(../img/icons/Logo\ Face.svg) no-repeat;
+  padding: 15px 0 15px 72px;
+}
+
+.mapa li{
+  margin-bottom: 12px;
+}
+
 /*------RESPONSIVO-----------*/
 
 @media (max-width: 1000px) {
