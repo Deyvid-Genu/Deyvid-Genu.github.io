@@ -33,7 +33,11 @@ a {
 }
 
 .header-bg {
+  position: fixed;
+  width: 100%;
   background-color: #000000;
+  margin-top: -92px;
+  z-index: 99;
 }
 
 .header {
@@ -63,6 +67,11 @@ a {
 
 .header-menu a:hover {
   color: #d68292;
+}
+
+.intro-img{
+  position: relative;
+  margin-top: 92px;
 }
 
 img {
