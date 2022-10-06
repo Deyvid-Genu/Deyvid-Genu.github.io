@@ -1,0 +1,22 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1,
+ul,
+body,
+h2 {
+  margin: 0;
+}
+
+h2{
+    margin-bottom: 20px;
+  }
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
