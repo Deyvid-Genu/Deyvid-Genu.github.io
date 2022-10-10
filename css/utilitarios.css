@@ -37,5 +37,7 @@
     color: var(--primaria-5);
     padding: 15px 30px;
     border-radius: 4px;
-    background: linear-gradient( var(--primaria-1), var(--primaria-3));  
+    background: linear-gradient( var(--primaria-1), var(--primaria-3));
+    display: inline-block;
+    max-width: max-content;  
   }

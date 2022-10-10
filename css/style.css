@@ -2,36 +2,4 @@
 @import url(./tipografia.css);
 @import url(./utilitarios.css);
 @import url(./componentes.css);
-
-/*------RESPONSIVO-----------*/
-
-@media (max-width: 1000px) {
-  .logo {
-    width: 180px;
-  }
-  .header-menu a {
-    font-weight: 300;
-  }
-}
-
-@media (max-width: 900px) {
-  .header {
-    justify-content: center;
-  }
-  .header-menu {
-    gap: 20px;
-  }
-  .header-menu a {
-    font-size: 1rem;
-    padding: 12px 16px;
-    background-color: #121111;
-    border-radius: 4px;
-  }
-}
-
-@media (max-width: 600px) {
-  .header-menu a {
-    padding: 8px 12px;
-    font-size: 0.875rem;
-  }
-}
+@import url(./responsivo.css);
