@@ -155,6 +155,7 @@
   .footer{
     display: grid;
     grid-template-columns: 1fr 2fr;
+    gap: 60px;
   }
 
   .footer h2{

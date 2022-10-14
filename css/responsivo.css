@@ -93,8 +93,24 @@
         font: 600 1.5rem/1.12 'Comfortaa', cursive;
     }
 
+    .portfolio-bg{
+      padding: 0;
+    }
+
     .conteudo-portfolio{
         gap: 12px;
+    }
+
+    .footer-bg{
+      padding: 40px 0;
+    }
+
+    .footer{
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .footer img{
+      max-width: 32px;
     }
   }
    
@@ -108,6 +124,14 @@
     .header-menu a {
       padding: 8px 12px;
       font-size: 0.875rem;
+    }
+
+    .footer{
+      grid-template-columns: 1fr;
+    }
+
+    .footer img{
+      max-width: 20px;
     }
   }
   
