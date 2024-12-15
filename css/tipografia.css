@@ -1,20 +1,30 @@
 .font-1-xs {
-  font: 400 1.125rem/1.25 "Roboto", sans-serif;
+  font:
+    400 1rem/1.25 'Roboto',
+    sans-serif;
 }
 
 .font-2-xs-b {
-  font: 400 1.125rem/1.25 "Comfortaa", cursive;
+  font:
+    400 1rem/1.25 'Comfortaa',
+    cursive;
   text-transform: uppercase;
 }
 
 .font-1-s {
-  font: 400 1.5rem/1.5 "Roboto", sans-serif;
+  font:
+    400 1.25rem/1.5 'Roboto',
+    sans-serif;
 }
 
 .font-2-m-b {
-  font: 600 2.125rem/1.12 "Comfortaa", cursive;
+  font:
+    600 1.75rem/1.12 'Comfortaa',
+    cursive;
 }
 
 .font-2-l {
-  font: 600 3.875rem/1.125 "Comfortaa", cursive;
+  font:
+    600 2.5rem/1.125 'Comfortaa',
+    cursive;
 }
